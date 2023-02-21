@@ -190,7 +190,7 @@ margin: 0 auto;
 
 .tintuc {
     width: 100%;
-    background-color: #FFCC33;
+    background-color: rgb(153, 139, 119);;
     margin-top: 10px;
     padding: 9px;
     border-radius: 5px;
@@ -208,7 +208,7 @@ margin: 0 auto;
 .thongbao {
     width: 100%;
     height: auto;
-    background-color: red;
+    background-color: rgb(153, 139, 119);
     margin-top: 10px;
     padding: 10px;
     color: white;
@@ -219,7 +219,7 @@ margin: 0 auto;
 .vanban {
     width: 100%;
     height: auto;
-    background-color: tomato;
+    background-color: rgb(153, 139, 119);
     margin-top: 10px;
     padding: 10px;
     color: white;
@@ -393,22 +393,19 @@ float: right;
 article img {
     width: 100%;
 }
-.map{
-    position: absolute;
-    bottom: -725px;
-    align-items: center;
-}
 .timkiem{
     float: right;
     margin-right: 1px;
 }
 .menuduoi{
-    height: 600px;
+    height: 476px;
     float: left;
     width: 48%;
     margin-left: 10px;
     margin-top: 10px;
     line-height: 30px;
+    border: gray 1px solid ;
+    background-color: rgb(200, 198, 198);
 }
 .menuduoi a{
     text-decoration: none;
@@ -418,7 +415,12 @@ article img {
     color: red;
 }
 
-
+h2{
+    bottom: -20px;
+}
+.ss{
+ bottom: 10px;
+}
 
 
 
